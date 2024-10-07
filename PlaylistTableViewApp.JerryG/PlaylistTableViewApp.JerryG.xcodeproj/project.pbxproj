@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3295E22CB22BEC0085B504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3295E12CB22BEC0085B504 /* AppDelegate.swift */; };
+		3F3295E42CB22BEC0085B504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3295E32CB22BEC0085B504 /* SceneDelegate.swift */; };
+		3F3295E62CB22BEC0085B504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3295E52CB22BEC0085B504 /* ViewController.swift */; };
+		3F3295E92CB22BEC0085B504 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F3295E82CB22BEC0085B504 /* Base */; };
+		3F3295EB2CB22BF70085B504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3295EA2CB22BF70085B504 /* Assets.xcassets */; };
+		3F3295EE2CB22BF70085B504 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F3295ED2CB22BF70085B504 /* Base */; };
+		3F3295F92CB22BF90085B504 /* PlaylistTableViewApp_JerryGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3295F82CB22BF90085B504 /* PlaylistTableViewApp_JerryGTests.swift */; };
+		3F3296032CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3296022CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITests.swift */; };
+		3F3296052CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3296042CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3295F52CB22BF90085B504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3295D62CB22BEC0085B504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3295DD2CB22BEC0085B504;
+			remoteInfo = PlaylistTableViewApp.JerryG;
+		};
+		3F3295FF2CB22BF90085B504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3295D62CB22BEC0085B504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3295DD2CB22BEC0085B504;
+			remoteInfo = PlaylistTableViewApp.JerryG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3295DE2CB22BEC0085B504 /* PlaylistTableViewApp.JerryG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistTableViewApp.JerryG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3295E12CB22BEC0085B504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3295E32CB22BEC0085B504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F3295E52CB22BEC0085B504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3295E82CB22BEC0085B504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3295EA2CB22BF70085B504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3295ED2CB22BF70085B504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3295EF2CB22BF70085B504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3295F42CB22BF90085B504 /* PlaylistTableViewApp.JerryGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistTableViewApp.JerryGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3295F82CB22BF90085B504 /* PlaylistTableViewApp_JerryGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewApp_JerryGTests.swift; sourceTree = "<group>"; };
+		3F3295FE2CB22BF90085B504 /* PlaylistTableViewApp.JerryGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistTableViewApp.JerryGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3296022CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewApp_JerryGUITests.swift; sourceTree = "<group>"; };
+		3F3296042CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewApp_JerryGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3295DB2CB22BEC0085B504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3295F12CB22BF90085B504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3295FB2CB22BF90085B504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3295D52CB22BEC0085B504 = {
+			isa = PBXGroup;
+			children = (
+				3F3295E02CB22BEC0085B504 /* PlaylistTableViewApp.JerryG */,
+				3F3295F72CB22BF90085B504 /* PlaylistTableViewApp.JerryGTests */,
+				3F3296012CB22BF90085B504 /* PlaylistTableViewApp.JerryGUITests */,
+				3F3295DF2CB22BEC0085B504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3295DF2CB22BEC0085B504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3295DE2CB22BEC0085B504 /* PlaylistTableViewApp.JerryG.app */,
+				3F3295F42CB22BF90085B504 /* PlaylistTableViewApp.JerryGTests.xctest */,
+				3F3295FE2CB22BF90085B504 /* PlaylistTableViewApp.JerryGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3295E02CB22BEC0085B504 /* PlaylistTableViewApp.JerryG */ = {
+			isa = PBXGroup;
+			children = (
+				3F3295E12CB22BEC0085B504 /* AppDelegate.swift */,
+				3F3295E32CB22BEC0085B504 /* SceneDelegate.swift */,
+				3F3295E52CB22BEC0085B504 /* ViewController.swift */,
+				3F3295E72CB22BEC0085B504 /* Main.storyboard */,
+				3F3295EA2CB22BF70085B504 /* Assets.xcassets */,
+				3F3295EC2CB22BF70085B504 /* LaunchScreen.storyboard */,
+				3F3295EF2CB22BF70085B504 /* Info.plist */,
+			);
+			path = PlaylistTableViewApp.JerryG;
+			sourceTree = "<group>";
+		};
+		3F3295F72CB22BF90085B504 /* PlaylistTableViewApp.JerryGTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3295F82CB22BF90085B504 /* PlaylistTableViewApp_JerryGTests.swift */,
+			);
+			path = PlaylistTableViewApp.JerryGTests;
+			sourceTree = "<group>";
+		};
+		3F3296012CB22BF90085B504 /* PlaylistTableViewApp.JerryGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3296022CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITests.swift */,
+				3F3296042CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITestsLaunchTests.swift */,
+			);
+			path = PlaylistTableViewApp.JerryGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3295DD2CB22BEC0085B504 /* PlaylistTableViewApp.JerryG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3296082CB22BF90085B504 /* Build configuration list for PBXNativeTarget "PlaylistTableViewApp.JerryG" */;
+			buildPhases = (
+				3F3295DA2CB22BEC0085B504 /* Sources */,
+				3F3295DB2CB22BEC0085B504 /* Frameworks */,
+				3F3295DC2CB22BEC0085B504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaylistTableViewApp.JerryG;
+			productName = PlaylistTableViewApp.JerryG;
+			productReference = 3F3295DE2CB22BEC0085B504 /* PlaylistTableViewApp.JerryG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3295F32CB22BF90085B504 /* PlaylistTableViewApp.JerryGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F32960B2CB22BF90085B504 /* Build configuration list for PBXNativeTarget "PlaylistTableViewApp.JerryGTests" */;
+			buildPhases = (
+				3F3295F02CB22BF90085B504 /* Sources */,
+				3F3295F12CB22BF90085B504 /* Frameworks */,
+				3F3295F22CB22BF90085B504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3295F62CB22BF90085B504 /* PBXTargetDependency */,
+			);
+			name = PlaylistTableViewApp.JerryGTests;
+			productName = PlaylistTableViewApp.JerryGTests;
+			productReference = 3F3295F42CB22BF90085B504 /* PlaylistTableViewApp.JerryGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3295FD2CB22BF90085B504 /* PlaylistTableViewApp.JerryGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F32960E2CB22BF90085B504 /* Build configuration list for PBXNativeTarget "PlaylistTableViewApp.JerryGUITests" */;
+			buildPhases = (
+				3F3295FA2CB22BF90085B504 /* Sources */,
+				3F3295FB2CB22BF90085B504 /* Frameworks */,
+				3F3295FC2CB22BF90085B504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3296002CB22BF90085B504 /* PBXTargetDependency */,
+			);
+			name = PlaylistTableViewApp.JerryGUITests;
+			productName = PlaylistTableViewApp.JerryGUITests;
+			productReference = 3F3295FE2CB22BF90085B504 /* PlaylistTableViewApp.JerryGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3295D62CB22BEC0085B504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3F3295DD2CB22BEC0085B504 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3F3295F32CB22BF90085B504 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F3295DD2CB22BEC0085B504;
+					};
+					3F3295FD2CB22BF90085B504 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F3295DD2CB22BEC0085B504;
+					};
+				};
+			};
+			buildConfigurationList = 3F3295D92CB22BEC0085B504 /* Build configuration list for PBXProject "PlaylistTableViewApp.JerryG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3295D52CB22BEC0085B504;
+			productRefGroup = 3F3295DF2CB22BEC0085B504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3295DD2CB22BEC0085B504 /* PlaylistTableViewApp.JerryG */,
+				3F3295F32CB22BF90085B504 /* PlaylistTableViewApp.JerryGTests */,
+				3F3295FD2CB22BF90085B504 /* PlaylistTableViewApp.JerryGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3295DC2CB22BEC0085B504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3295EB2CB22BF70085B504 /* Assets.xcassets in Resources */,
+				3F3295EE2CB22BF70085B504 /* Base in Resources */,
+				3F3295E92CB22BEC0085B504 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3295F22CB22BF90085B504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3295FC2CB22BF90085B504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3295DA2CB22BEC0085B504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3295E62CB22BEC0085B504 /* ViewController.swift in Sources */,
+				3F3295E22CB22BEC0085B504 /* AppDelegate.swift in Sources */,
+				3F3295E42CB22BEC0085B504 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3295F02CB22BF90085B504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3295F92CB22BF90085B504 /* PlaylistTableViewApp_JerryGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3295FA2CB22BF90085B504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3296032CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITests.swift in Sources */,
+				3F3296052CB22BF90085B504 /* PlaylistTableViewApp_JerryGUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3295F62CB22BF90085B504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3295DD2CB22BEC0085B504 /* PlaylistTableViewApp.JerryG */;
+			targetProxy = 3F3295F52CB22BF90085B504 /* PBXContainerItemProxy */;
+		};
+		3F3296002CB22BF90085B504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3295DD2CB22BEC0085B504 /* PlaylistTableViewApp.JerryG */;
+			targetProxy = 3F3295FF2CB22BF90085B504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3295E72CB22BEC0085B504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3295E82CB22BEC0085B504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3295EC2CB22BF70085B504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3295ED2CB22BF70085B504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3296062CB22BF90085B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3296072CB22BF90085B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3296092CB22BF90085B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlaylistTableViewApp.JerryG/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Add157.PlaylistTableViewApp-JerryG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F32960A2CB22BF90085B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlaylistTableViewApp.JerryG/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Add157.PlaylistTableViewApp-JerryG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F32960C2CB22BF90085B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Add157.PlaylistTableViewApp-JerryGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaylistTableViewApp.JerryG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlaylistTableViewApp.JerryG";
+			};
+			name = Debug;
+		};
+		3F32960D2CB22BF90085B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Add157.PlaylistTableViewApp-JerryGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaylistTableViewApp.JerryG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlaylistTableViewApp.JerryG";
+			};
+			name = Release;
+		};
+		3F32960F2CB22BF90085B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Add157.PlaylistTableViewApp-JerryGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlaylistTableViewApp.JerryG;
+			};
+			name = Debug;
+		};
+		3F3296102CB22BF90085B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Add157.PlaylistTableViewApp-JerryGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlaylistTableViewApp.JerryG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3295D92CB22BEC0085B504 /* Build configuration list for PBXProject "PlaylistTableViewApp.JerryG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3296062CB22BF90085B504 /* Debug */,
+				3F3296072CB22BF90085B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3296082CB22BF90085B504 /* Build configuration list for PBXNativeTarget "PlaylistTableViewApp.JerryG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3296092CB22BF90085B504 /* Debug */,
+				3F32960A2CB22BF90085B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F32960B2CB22BF90085B504 /* Build configuration list for PBXNativeTarget "PlaylistTableViewApp.JerryGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F32960C2CB22BF90085B504 /* Debug */,
+				3F32960D2CB22BF90085B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F32960E2CB22BF90085B504 /* Build configuration list for PBXNativeTarget "PlaylistTableViewApp.JerryGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F32960F2CB22BF90085B504 /* Debug */,
+				3F3296102CB22BF90085B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3295D62CB22BEC0085B504 /* Project object */;
+}
